@@ -4,7 +4,7 @@
 
 @media (min-width: 640px) {
   .body-width {
-    width: calc(100% - 24vw)
+    width: calc(100% - 32vw)
   }
 }
 
