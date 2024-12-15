@@ -11,7 +11,7 @@ export const workArr: {
   {
     company: "AE Building Technolojies",
     position: "Frontend Developer",
-    years: "2013-present",
+    years: "2022-present",
     id: "job-0"
   },
   {
