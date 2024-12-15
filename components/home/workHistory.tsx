@@ -10,7 +10,7 @@ export const workArr: {
 }[] = [
   {
     company: "AE Building Technolojies",
-    position: "Frontend Developer",
+    position: "Frontend Developer that used React, Redux, TailwindCSS, HTML, and CSS",
     years: "2022-present",
     id: "job-0"
   },
@@ -22,7 +22,7 @@ export const workArr: {
   },
   {
     company: "Tenis.io",
-    position: "Co-Founder",
+    position: "Co-Founder, Project Manager",
     years: "2021-22",
     id: "job-2"
   },

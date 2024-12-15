@@ -7,6 +7,7 @@ interface PostPreviewProps {
         date: string
         title: string
         body: string
+        link: string
     }
 }
 
@@ -20,7 +21,7 @@ export default function PostPreview(props: PostPreviewProps) {
                 data-testid="post-title">{post.title}</h3>
             <p className="text-sm font-light  my-2" data-testid="post-preview">{`${post.body.slice(0, 180)}...`}</p>
             <div className="items-center justify-start flex text-sm dark:text-emerald-300 text-emerald-500 hover:text-emerald-400 my-2">
-                <Link href="/">
+                <Link href={post.link}>
                     Read article
                 </Link>
                 <MdNavigateNext />
