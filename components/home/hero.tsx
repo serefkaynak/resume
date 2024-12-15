@@ -8,7 +8,7 @@ export default function Hero() {
         Şeref Kaynak
       </h1>
       <p className="py-4 px-4 " data-testid="hero-blurb">
-          As a Frontend Developer, I have gained experience in various projects using JavaScript, React, Redux, HTML, and CSS technologies. I also supplement my backend knowledge with Spring Boot, Java, and SQL.
+          As a Frontend Developer, I have gained experience in various projects using JavaScript, React, Redux, TailwindCSS, HTML, and CSS technologies. I also supplement my backend knowledge with Spring Boot, Java, and SQL.
       </p>
       <div className="py-4 px-4 gap-2 flex flex-row text-2xl " data-testid="social-links">
         <Link className="dark:hover:text-zinc-200 hover:text-zinc-600" href={"https://github.com/serefkaynak"} data-testid="github-link">
