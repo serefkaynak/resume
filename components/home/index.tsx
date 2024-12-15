@@ -14,7 +14,7 @@ export default function HomeComponent() {
       {/*<ImageGallery />*/}
       <div className="lg:flex flex-row lg:my-16 my-8">
       <Posts />
-      <div className="flex flex-col lg:my-16 my-8 ml">
+      <div className="flex flex-col lg:my-16 my-8">
       <SignUp />
       <WorkHistory />
       </div>
