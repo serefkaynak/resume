@@ -3,7 +3,7 @@ import ProjectTile from "./projectTile";
 
 const headInfo = {
   headline: "My Projects",
-  text: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+  text: "Here are some of the projects I have worked on. I have worked on a lot of projects, but these are the ones I am most proud of. I worked with React, Typescript, and Tailwind CSS."
 }
 
 export const projectsArr: {
@@ -16,31 +16,17 @@ export const projectsArr: {
   {
     id: 0,
     imgSrc: "http://placebeard.it/200/200",
-    title: "Lorem Ipsum",
-    blurb: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
+    title: "Onpro Project",
+    blurb: "Onpro is a access control management platform that allows you to manage access to your data. I worked on the frontend part of the project. That part was built with React, Redux, and Typescript. The backend part was built with Node.js, and PosgreSQL.",
     link: "github.com"
   },
   {
     id: 1,
-    imgSrc: "http://placebeard.it/200/200",
-    title: "Lorem Ipsum",
-    blurb: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
-    link: "github.com"
-  },
-  {
-    id: 2,
-    imgSrc: "http://placebeard.it/200/200",
-    title: "Lorem Ipsum",
-    blurb: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
-    link: "github.com"
-  },
-  {
-    id: 3,
-    imgSrc: "http://placebeard.it/200/200",
-    title: "Lorem Ipsum",
-    blurb: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
-    link: "github.com"
-  },
+    imgSrc: "https://tenis.io/images/logo.svg",
+    title: "Tenis.io",
+    blurb: "Tenis.io is a social network for people who play tennis. It was built with React,Next.js, Typescript, and Tailwind CSS. I worked on the project management and frontend part of the project.",
+    link: "https://tenis.io/"
+  }
 ]
 
 

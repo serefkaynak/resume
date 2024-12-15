@@ -2,8 +2,16 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: [
-      "placebeard.it"
+    // domains: [
+    //   "placebeard.it"
+    // ],
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "placebeard.it",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 }
