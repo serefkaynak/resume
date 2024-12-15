@@ -9,12 +9,12 @@ export default function HomeComponent() {
   
 
   return (
-    <div data-testid="home-component">
+    <div data-testid="home-component" className={'ml-4 mr-2'}>
       <Hero />
       {/*<ImageGallery />*/}
       <div className="lg:flex flex-row lg:my-16 my-8">
       <Posts />
-      <div className="flex flex-col lg:my-16 my-8">
+      <div className="flex flex-col lg:my-16 my-8 ml">
       <SignUp />
       <WorkHistory />
       </div>
