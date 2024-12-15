@@ -15,10 +15,10 @@ export const projectsArr: {
 }[] = [
   {
     id: 0,
-    imgSrc: "http://placebeard.it/200/200",
+    imgSrc: "https://www.facebook.com/photo/?fbid=672306098249188&set=a.672306071582524&__tn__=%3C",
     title: "Onpro Project",
     blurb: "Onpro is a access control management platform that allows you to manage access to your data. I worked on the frontend part of the project. That part was built with React, Redux, and Typescript. The backend part was built with Node.js, and PosgreSQL.",
-    link: "github.com"
+    link: ""
   },
   {
     id: 1,

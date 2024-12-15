@@ -20,12 +20,12 @@ export default function ProjectTile(props: ProjectTileProps) {
       </div>
       <h2 className="text-zinc-900 hover:text-zinc-900 dark:text-zinc-100 font-semibold py-4">{title}</h2>
       <p className="text-zinc-900 hover:text-zinc-900 dark:text-zinc-400">{blurb.slice(0, 150)}...</p>
-      <div className=" flex flex-row items-center py-4 dark:text-zinc-100" >
-        <div className="mr-2">
-          <BsLink45Deg />
+        <div className=" flex flex-row items-center py-4 dark:text-zinc-100">
+            <div className="mr-2">
+                <BsLink45Deg/>
+            </div>
+            <a href={link}>{link}</a>
         </div>
-        {link}
-      </div>
     </Link>
   )
 }
