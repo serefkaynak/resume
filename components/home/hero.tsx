@@ -9,6 +9,11 @@ export default function Hero() {
       </h1>
       <p className="py-4 px-4 " data-testid="hero-blurb">
           As a Frontend Developer, I have gained experience in various projects using JavaScript, React, Redux, TailwindCSS, HTML, and CSS technologies. I also supplement my backend knowledge with Spring Boot, Java, and SQL.
+          <br />
+          <br />
+          I am passionate about creating user-friendly and visually appealing interfaces, and I am always looking for ways to improve my skills and knowledge.
+          <br/>
+          I am currently working as a Frontend Developer at AE Building Technologies.
       </p>
       <div className="py-4 px-4 gap-2 flex flex-row text-2xl " data-testid="social-links">
         <Link className="dark:hover:text-zinc-200 hover:text-zinc-600" href={"https://github.com/serefkaynak"} data-testid="github-link">
