@@ -9,13 +9,13 @@ export const workArr: {
   id: string
 }[] = [
   {
-    company: "AE Building Technolojies",
+    company: "AE Building Technologies",
     position: "Frontend Developer that used React, Redux, TailwindCSS, HTML, and CSS",
     years: "2022-present",
     id: "job-0"
   },
   {
-    company: "AE Building Technolojies",
+    company: "AE Building Technologies",
     position: "Business Analyst",
     years: "2022-23",
     id: "job-1"
@@ -27,7 +27,7 @@ export const workArr: {
     id: "job-2"
   },
   {
-    company: "AE Building Technolojies",
+    company: "AE Building Technologies",
     position: "Sales Support Engineer",
     years: "2019-21",
     id: "job-3"
