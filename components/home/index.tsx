@@ -16,12 +16,12 @@ export default function HomeComponent() {
             <Hero/>
             {/*<ImageGallery />*/}
             {projectsArr.map(i => (
-                <div key={i.id} className={'flex flex-col justify-start items-center'}>
+                <div key={i.id} className={'flex flex-col justify-start items-start'}>
                     <div className={'flex flex-row justify-start gap-2'}>
                         <div
-                            className=" rounded-full overflow-hidden flex justify-center items-center p-1 shadow w-12 h-12">
+                            className=" rounded-full overflow-hidden flex justify-center items-center p-1 shadow w-10 h-12">
                             <Image
-                                className=" rounded-full overflow-hidden w-12 h-12"
+                                className=" rounded-full overflow-hidden w-8 h-8"
                                 data-testid="project-img"
                                 src={i.imgSrc}
                                 width={50}
