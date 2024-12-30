@@ -19,7 +19,7 @@ export default function HomeComponent() {
                 <div key={i.id} className={'flex flex-col justify-start items-center'}>
                     <div className={'flex flex-row justify-start gap-2'}>
                         <div
-                            className=" rounded-full overflow-hidden flex justify-center items-center p-1 shadow w-14 h-14">
+                            className=" rounded-full overflow-hidden flex justify-center items-center p-1 shadow w-12 h-12">
                             <Image
                                 className=" rounded-full overflow-hidden w-12 h-12"
                                 data-testid="project-img"
@@ -29,9 +29,9 @@ export default function HomeComponent() {
                                 alt={"Project preview"}
                                 title={i.title}/>
                         </div>
-                        <div className={'flex flex-col justify-start items-center'}>
+                        <div className={'flex flex-col justify-start items-start'}>
                             <h2 className="text-zinc-900 hover:text-zinc-900 dark:text-zinc-100 font-semibold py-4">{i.title}</h2>
-                            <p className="text-zinc-900 hover:text-zinc-900 dark:text-zinc-400">{i.blurb.slice(0, 150)}...</p>
+                            <p className="text-zinc-600 hover:text-zinc-900 dark:text-zinc-400">{i.blurb.slice(0, 150)}...</p>
                         </div>
                     </div>
                 </div>
