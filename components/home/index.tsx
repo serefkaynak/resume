@@ -17,20 +17,23 @@ export default function HomeComponent() {
             {/*<ImageGallery />*/}
             {projectsArr.map(i => (
                 <div key={i.id} className={'flex flex-col justify-start items-center'}>
-                    <div className={'flex flex-row justify-start items-center gap-2'}>
-                    <div className=" rounded-full overflow-hidden flex justify-center items-center p-1 shadow w-14 h-14">
-                        <Image
-                            className=" rounded-full overflow-hidden w-12 h-12"
-                            data-testid="project-img"
-                            src={i.imgSrc}
-                            width={50}
-                            height={50}
-                            alt={"Project preview"}
-                            title={i.title}/>
+                    <div className={'flex flex-row justify-start gap-2'}>
+                        <div
+                            className=" rounded-full overflow-hidden flex justify-center items-center p-1 shadow w-14 h-14">
+                            <Image
+                                className=" rounded-full overflow-hidden w-12 h-12"
+                                data-testid="project-img"
+                                src={i.imgSrc}
+                                width={50}
+                                height={50}
+                                alt={"Project preview"}
+                                title={i.title}/>
+                        </div>
+                        <div className={'flex flex-col justify-start items-center'}>
+                            <h2 className="text-zinc-900 hover:text-zinc-900 dark:text-zinc-100 font-semibold py-4">{i.title}</h2>
+                            <p className="text-zinc-900 hover:text-zinc-900 dark:text-zinc-400">{i.blurb.slice(0, 150)}...</p>
+                        </div>
                     </div>
-                    <h2 className="text-zinc-900 hover:text-zinc-900 dark:text-zinc-100 font-semibold py-4">{i.title}</h2>
-                    </div>
-                    <p className="text-zinc-900 hover:text-zinc-900 dark:text-zinc-400">{i.blurb.slice(0, 150)}...</p>
                 </div>
             ))}
             <div className="lg:flex flex-row lg:my-16 my-8 justify-start">
