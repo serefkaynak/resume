@@ -9,8 +9,10 @@ I kept the functionality to a minimum and focused my time on replicating the fan
 
 ## Stack
 - Tailwind CSS
+- React
 - Next JS
 - TypeScript
+- Tailwind UI
 
 ## Credit
 Many thanks obviously goes to Tailwind UI for such a great template.
