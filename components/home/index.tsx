@@ -5,7 +5,6 @@ import Posts from "./posts"
 import SignUp from "./signUp"
 import WorkHistory from "./workHistory"
 import {projectsArr} from "@/components/projects";
-import Image from "next/image";
 import ProjectHome from "@/components/projects/projectHome";
 
 export default function HomeComponent() {

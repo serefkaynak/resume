@@ -1,8 +1,5 @@
-import Image from "next/image"
-import Link from "next/link"
-import { BsLink45Deg } from "react-icons/bs"
+import Image from "next/image";
 import React from "react";
-
 interface ProjectHomeProps {
   id: number
   imgSrc: string
@@ -12,7 +9,7 @@ interface ProjectHomeProps {
 }
 
 export default function ProjectHome(props: ProjectHomeProps) {
-  const { imgSrc, title, blurb, link } = props
+  const { imgSrc, title, blurb } = props
 
   return (
       <div className={'flex flex-row justify-start gap-2'}>
