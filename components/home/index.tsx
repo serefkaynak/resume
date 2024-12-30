@@ -17,7 +17,7 @@ export default function HomeComponent() {
             {/*<ImageGallery />*/}
                 <h2 className="mt-4 mb-2 font-semibold dark:text-zinc-100">Projects</h2>
             {projectsArr.map(i => (
-                <div key={i.id} className={'flex flex-col justify-start items-start gap-2'}>
+                <div key={i.id} className={'flex flex-col justify-start items-start gap-2 mb-4'}>
                     <div className={'flex flex-row justify-start gap-2'}>
                         <div
                             className=" rounded-full overflow-hidden flex justify-center items-center p-1 shadow w-10 h-10">
