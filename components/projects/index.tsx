@@ -15,7 +15,7 @@ export const projectsArr: {
 }[] = [
   {
     id: 0,
-    imgSrc: "https://www.facebook.com/photo/?fbid=672306098249188&set=a.672306071582524&__tn__=%3C",
+    imgSrc: "",
     title: "Onpro Project",
     blurb: "Onpro is a access control management platform that allows you to manage access to your data. I worked on the frontend part of the project. That part was built with React, Redux, and Typescript. The backend part was built with Node.js, and PosgreSQL.",
     link: ""
@@ -26,6 +26,13 @@ export const projectsArr: {
     title: "Tenis.io",
     blurb: "Tenis.io is a social network for people who play tennis. It was built with React,Next.js, Typescript, and Tailwind CSS. I worked on the project management and frontend part of the project.",
     link: "https://tenis.io/"
+  },
+  {
+    id: 2,
+    imgSrc: '',
+    title: "Bounce Action",
+    blurb: "Bounce Action is a mamage your ball project.",
+    link: "https://bounce-action.vercel.app/"
   }
 ]
 
