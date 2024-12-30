@@ -15,7 +15,7 @@ export const projectsArr: {
 }[] = [
   {
     id: 0,
-    imgSrc: 'project.png',
+    imgSrc: '/images/project.png',
     title: "Onpro Project",
     blurb: "Onpro is a access control management platform that allows you to manage access to your data. I worked on the frontend part of the project. That part was built with React, Redux, and Typescript. The backend part was built with Node.js, and PosgreSQL.",
     link: "www.onpro.com"
@@ -29,7 +29,7 @@ export const projectsArr: {
   },
   {
     id: 2,
-    imgSrc: 'project.png',
+    imgSrc: '/images/project.png',
     title: "Bounce Action",
     blurb: "Bounce Action is a mamage your ball project.",
     link: "https://bounce-action.vercel.app/"
