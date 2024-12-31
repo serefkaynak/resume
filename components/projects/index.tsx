@@ -31,7 +31,7 @@ export const projectsArr: {
     id: 2,
     imgSrc: '/images/project.png',
     title: "Bounce Action",
-    blurb: "Bounce Action is a mamage your ball project.",
+    blurb: "Bounce Action is a manage your ball project.",
     link: "https://bounce-action.vercel.app/"
   }
 ]
