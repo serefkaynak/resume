@@ -14,7 +14,7 @@ export default function ProjectHome(props: ProjectHomeProps) {
   return (
       <div className={'flex flex-row justify-start gap-2'}>
           <div
-              className=" rounded-full overflow-hidden justify-center items-center p-1 shadow w-10 h-10">
+              className=" rounded-full overflow-hidden min-w-fit justify-center items-center p-1 shadow w-10 h-10">
               <Image
                   className=" rounded-full overflow-hidden w-8 h-8"
                   data-testid="project-img"
