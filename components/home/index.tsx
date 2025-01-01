@@ -17,9 +17,9 @@ export default function HomeComponent() {
             <Hero/>
             {/*<ImageGallery />*/}
             <div className={'ml-4 mr-2'}>
-                <div className="flex flex-row items-center justify-start gap-2">
-                <div className="text-gray-400" data-testid="project-icon"><AiOutlineFundProjectionScreen/></div>
-                <h2 className="mt-4 mb-2 font-semibold dark:text-zinc-100">Projects</h2>
+                <div className="flex flex-row items-center justify-start gap-2 mt-4 mb-2">
+                    <div className="text-gray-400" data-testid="project-icon"><AiOutlineFundProjectionScreen/></div>
+                    <h2 className="font-semibold dark:text-zinc-100">Projects</h2>
                 </div>
                 {projectsArr.map(i => (
                     <div key={i.id} className={'flex flex-col justify-start items-start gap-2 mb-4'}>
